@@ -32,7 +32,7 @@ export default function Solar() {
                 everyone while protecting our planet for future generations.
               </p>
               <p>
-                Over the years, we've grown from a small team of passionate
+                Over the years, we&apos;ve grown from a small team of passionate
                 engineers to a leading solar energy company, serving thousands
                 of customers across the globe. Our commitment to innovation,
                 quality, and customer satisfaction has made us a trusted name in
@@ -68,7 +68,7 @@ export default function Solar() {
               </div>
               <h3 style={{ color: "var(--primary-blue)" }}>Our Mission</h3>
               <p>
-                To accelerate the world's transition to sustainable energy by
+                To accelerate the world&apos;s transition to sustainable energy by
                 providing innovative, reliable, and cost-effective solar
                 solutions that empower communities and protect the environment.
               </p>

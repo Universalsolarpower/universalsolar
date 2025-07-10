@@ -74,7 +74,7 @@ export default function Footer() {
               
               <p className="text-light mb-4 lh-base fs-6">
                 Leading provider of renewable energy solutions in Chennai. 
-                We're committed to making solar energy accessible and affordable for everyone.
+                We&apos;re committed to making solar energy accessible and affordable for everyone.
               </p>
               
               <div className="d-flex gap-3">
@@ -220,7 +220,7 @@ export default function Footer() {
             </div>
             <div className="col-md-6 text-center text-md-end">
               <small className="text-light">
-                Powered by Clean Energy <span className="text-danger">❤️</span> Designed with Sneha
+                Powered by Clean Energy <span className="text-danger">❤️</span> Designed with Shiyam
               </small>
             </div>
           </div>
