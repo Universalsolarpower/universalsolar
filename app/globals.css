@@ -29,50 +29,6 @@
             line-height: 1.6;
             overflow-x: hidden;
         }
-/* Modern Navbar Styles */
-.modern-navbar {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(12px);
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  padding: 0.8rem 0;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-
-.navbar-brand {
-  font-size: 1.2rem;
-  color: var(--primary-color, #333);
-}
-.navbar{
-height: 82px;
-}
-
-.modern-link {
-  position: relative;
-  font-weight: 500;
-  color: #333;
-  transition: color 0.3s;
-}
-
-
-.modern-link::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary-blue, #007bff);
-  transition: width 0.3s;
-}
-
-.modern-link:hover {
-  color: var(--primary-blue, #007bff);
-}
-
-.modern-link:hover::after {
-  width: 100%;
-}
 
         .hero-section {
             height: 100vh;
@@ -772,3 +728,4 @@ height: 82px;
         .res-font{
             font-size: 23px !important;
         }
+        
