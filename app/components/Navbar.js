@@ -295,6 +295,8 @@ export default function Navbar() {
           .nav-link-mobile {
             font-size: 1.1rem;
             padding: 0.8rem 0;
+            text-decoration: none;
+            padding: 10px 0;
           }
         }
 

@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#0d6efd" />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
