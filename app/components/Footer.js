@@ -220,7 +220,7 @@ export default function Footer() {
             </div>
             <div className="col-md-6 text-center text-md-end">
               <small className="text-light">
-                Powered by Clean Energy <span className="text-danger">❤️</span> Designed with Shiyam
+                Powered by Clean Energy <span className="text-danger">❤️</span> Designed with Sneha
               </small>
             </div>
           </div>
