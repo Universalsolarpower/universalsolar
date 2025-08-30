@@ -92,7 +92,7 @@ while fostering a more sustainable future.
             { number: "5000+", label: "Happy Customers" },
             { number: "15MW+", label: "Solar Installed" },
             { number: "50+", label: "Cities Served" },
-            { number: "7", label: "Years Experience" },
+            { number: "5", label: "Years Experience" },
           ].map((stat, index) => (
             <div className="col-lg-3 col-md-6 mb-4" key={index}>
               <div className="stats-card fade-in">
