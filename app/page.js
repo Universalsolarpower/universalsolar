@@ -5,6 +5,7 @@ import Service from './components/Service'
 import Project from './components/Project'
 import Choose from './components/Choose'
 import Contact from './components/Contact'
+import Gallery from './components/Gallery'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <About />
       <Service />
       <Project />
+      <Gallery />
       <Choose />
       <Contact />
     </div>

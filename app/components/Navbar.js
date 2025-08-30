@@ -143,6 +143,8 @@ export default function Navbar() {
         .nav-link {
           text-decoration: none;
           color: #333;
+           font-weight:600 !important;
+         
           font-weight: 500;
           font-size: 1rem;
           padding: 0.5rem 0;
@@ -160,6 +162,7 @@ export default function Navbar() {
           bottom: -5px;
           left: 0;
           width: 0;
+           font-weight:600 !important;
           height: 2px;
           background: #007bff;
           transition: width 0.3s ease;
@@ -252,6 +255,7 @@ export default function Navbar() {
 
           .nav-link {
             font-size: 0.95rem;
+             font-weight:600 !important;
           }
         }
 

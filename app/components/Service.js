@@ -5,45 +5,49 @@ export default function Service() {
   return (
     <section id="services" className="section">
       <div className="container">
-        <h2 className="section-title" data-aos="fade-up">Our Solar Services</h2>
+        <h2 className="section-title text-center" data-aos="fade-up">
+          Our Solar Services
+        </h2>
         <div className="row">
-          <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          {/* EPC Services */}
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div className="service-card">
               <div className="service-icon">
                 <FaSolarPanel size={40} />
               </div>
-              <h4 className="service-title">Solar Panel Installation</h4>
-              <p>Professional installation of high-efficiency solar panels for residential and commercial properties with warranty coverage.</p>
+              <h4 className="service-title">EPC Solutions</h4>
+              <p>
+                End-to-end services including engineering design, site survey, 
+                material procurement, equipment supply, civil planning, erection, and commissioning.
+              </p>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          {/* O&M Services */}
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div className="service-card">
               <div className="service-icon">
                 <FaWrench size={40} />
               </div>
-              <h4 className="service-title">Solar Maintenance</h4>
-              <p>Regular maintenance and cleaning services to ensure optimal performance and longevity of your solar system.</p>
+              <h4 className="service-title">Operation & Maintenance</h4>
+              <p>
+                Performance monitoring, preventive and corrective maintenance, safety checks, 
+                inverter monitoring, data logging, and thermographic inspections to maximize system uptime.
+              </p>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          {/* Re-engineering & Optimization */}
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div className="service-card">
               <div className="service-icon">
                 <FaChartLine size={40} />
               </div>
-              <h4 className="service-title">Energy Auditing</h4>
-              <p>Comprehensive energy assessments to optimize your power consumption and maximize solar system efficiency.</p>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div className="service-card">
-              <div className="service-icon">
-                <FaBatteryFull size={40} />
-              </div>
-              <h4 className="service-title">Battery & Storage</h4>
-              <p>Advanced battery storage solutions to store excess energy and provide backup power during outages.</p>
+              <h4 className="service-title">Re-engineering & Optimization</h4>
+              <p>
+                System assessment, design upgrades, refurbishing, optimization, and replacement services 
+                to improve efficiency and extend the overall life of your solar plant.
+              </p>
             </div>
           </div>
         </div>

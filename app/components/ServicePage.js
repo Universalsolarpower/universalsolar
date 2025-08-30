@@ -1,59 +1,82 @@
 import React from 'react';
 import { 
-  FaHome, FaBuilding, FaBatteryHalf, FaTools, FaChartLine, FaMobileAlt, FaCheck, FaPhone, FaDraftingCompass, FaHammer, FaCogs 
+  FaDraftingCompass, FaMapMarkedAlt, FaBoxes, FaIndustry, FaHammer, FaCogs, 
+  FaLaptop, FaChartLine, FaThermometerHalf, FaTools, FaCheck,FaPhone 
 } from 'react-icons/fa';
 
 const serviceList = [
   {
-    icon: <FaHome size={40} />,
+    icon: <FaDraftingCompass size={40} />,
     color: 'var(--primary-blue)',
-    title: 'Residential Solar',
-    desc: 'Custom solar panel installations for homes, reducing electricity bills and carbon footprint with premium quality systems.',
-    points: ['Free home assessment', 'Custom design & installation', '25-year warranty', 'Financing options available'],
+    title: 'Engineering, Procurement & Construction (EPC)',
+    desc: 'Complete EPC solutions from design to commissioning for solar plants.',
+    points: [
+      'Engineering design & Consulting Services',
+      'Site Survey',
+      'Material Procurement',
+      'Supply of Equipment',
+      'Civil Planning & Procurement',
+      'Erection',
+      'Commissioning'
+    ],
   },
   {
-    icon: <FaBuilding size={40} />,
+    icon: <FaLaptop size={40} />,
     color: 'var(--eco-green)',
-    title: 'Commercial Solar',
-    desc: 'Large-scale solar solutions for businesses, warehouses, and industrial facilities to maximize energy savings and ROI.',
-    points: ['Energy audit & consultation', 'Scalable systems', 'Tax incentive optimization', 'Ongoing maintenance'],
-  },
-  {
-    icon: <FaBatteryHalf size={40} />,
-    color: 'var(--solar-yellow)',
-    title: 'Energy Storage',
-    desc: 'Advanced battery storage systems to store excess solar energy for use during peak hours or power outages.',
-    points: ['Backup power solutions', 'Peak shaving capabilities', 'Smart energy management', 'Grid independence'],
+    title: 'Operation & Maintenance (O&M)',
+    desc: 'Ensuring peak performance and longevity of your solar system through advanced O&M services.',
+    points: [
+      'Monitoring Performance',
+      'Remote Monitoring (Smart O&M)',
+      'Inverter Monitoring',
+      'Data Logging',
+      'Grid Connection Check',
+      'Preventive & Corrective Maintenance',
+      'Thermographic Inspections',
+      'Performance Evaluation',
+      'Safety Checks'
+    ],
   },
   {
     icon: <FaTools size={40} />,
-    color: 'var(--primary-blue)',
-    title: 'Installation & Maintenance',
-    desc: 'Professional installation services and ongoing maintenance to ensure optimal performance and longevity of your solar system.',
-    points: ['Certified installers', 'Quality assurance', 'Regular inspections', 'Performance monitoring'],
-  },
-  {
-    icon: <FaChartLine size={40} />,
-    color: 'var(--eco-green)',
-    title: 'Energy Consulting',
-    desc: 'Expert consultation services to help you understand your energy needs and design the most efficient solar solution.',
-    points: ['Energy usage analysis', 'ROI calculations', 'System optimization', 'Rebate assistance'],
-  },
-  {
-    icon: <FaMobileAlt size={40} />,
     color: 'var(--solar-yellow)',
-    title: 'Smart Monitoring',
-    desc: "Advanced monitoring systems with mobile apps to track your solar system's performance and energy production in real-time.",
-    points: ['Real-time monitoring', 'Mobile app access', 'Performance alerts', 'Historical data'],
+    title: 'Re-engineering & Re-development',
+    desc: 'Upgrade and optimize existing solar systems for improved performance and extended lifespan.',
+    points: [
+      'System Assessment',
+      'Design Phase',
+      'Implementation',
+      'Testing & Commissioning',
+      'Refurbishing services to improve monitoring & maintenance',
+      'Optimization services to achieve desired performance',
+      'Replacement of existing materials, design & engineering'
+    ],
   },
 ];
 
 const processList = [
-  { icon: <FaPhone size={30} />, title: '1. Consultation', desc: 'Free initial consultation to assess your energy needs and solar potential.' },
-  { icon: <FaDraftingCompass size={30} />, title: '2. Design', desc: 'Custom system design tailored to your property and energy requirements.' },
-  { icon: <FaHammer size={30} />, title: '3. Installation', desc: 'Professional installation by certified technicians with quality assurance.' },
-  { icon: <FaCogs size={30} />, title: '4. Activation', desc: 'System activation and ongoing monitoring to ensure optimal performance.' },
+  {
+    icon: <FaPhone size={30} />,
+    title: '1. Consultation',
+    desc: 'We provide a free initial consultation to understand your solar system requirements and goals.',
+  },
+  {
+    icon: <FaDraftingCompass size={30} />,
+    title: '2. Design & Planning',
+    desc: 'Our team creates detailed engineering designs and project plans tailored to your specific needs.',
+  },
+  {
+    icon: <FaHammer size={30} />,
+    title: '3. Execution',
+    desc: 'Professional procurement, construction, and installation delivered with high quality standards.',
+  },
+  {
+    icon: <FaCogs size={30} />,
+    title: '4. Commissioning & Optimization',
+    desc: 'We activate, monitor, and optimize system to ensure maximum performance.',
+  },
 ];
+
 
 export default function ServicePage() {
   return (
@@ -62,9 +85,9 @@ export default function ServicePage() {
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-lg-8">
-              <h1 className="fade-in">Our Solar Services</h1>
+              <h1 className="fade-in">Our Services</h1>
               <p className="fade-in">
-                Comprehensive solar energy solutions tailored to meet your specific needs and budget.
+                Comprehensive solar solutions including EPC, O&M, and re-engineering services to maximize efficiency and lifespan of your solar system.
               </p>
             </div>
           </div>
@@ -94,7 +117,7 @@ export default function ServicePage() {
         <div className="row mt-5">
           <div className="col-12 text-center mb-5">
             <h2 style={{ color: 'var(--primary-blue)' }}>Our Process</h2>
-            <p className="text-muted">Simple steps to solar energy independence</p>
+            <p className="text-muted">Step-by-step approach to ensure quality and efficiency</p>
           </div>
         </div>
 

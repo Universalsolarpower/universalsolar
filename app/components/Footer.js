@@ -121,7 +121,7 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="modern-section">
               <h5 className="fw-bold mb-4 text-warning d-flex align-items-center">
                 <Sun size={20} className="me-2" />
@@ -129,9 +129,9 @@ export default function Footer() {
               </h5>
               <ul className="list-unstyled">
                 {[
-                  'Solar Panel Installation',
-                  'Solar Maintenance',
-                  'Energy Auditing',
+                  'Engineering, Procurement & Construction (EPC)',
+                  'Operation & Maintenance (O&M)',
+                  'Re-engineering & Re-development',
                   'Battery Storage',
                   'Consultation'
                 ].map((service, index) => (

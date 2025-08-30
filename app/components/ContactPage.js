@@ -156,21 +156,24 @@ export default function ContactPage() {
                 <FaMapMarkerAlt size={24} />
               </div>
               <h5>Visit Our Office</h5>
-              <p>123 Solar Street<br />Green Valley, CA 90210<br />United States</p>
+              <p>Plot No. 64, G2 Lakshmi Nagar,
+Eurasia Foundation,
+200 ft Service Road, Anakaputhur,
+Chennai-600070</p>
             </div>
             <div className="contact-info-card fade-in mb-4">
               <div className="contact-icon">
                 <FaPhone size={24} />
               </div>
               <h5>Call Us</h5>
-              <p>Main: (555) 123-4567<br />Emergency: (555) 987-6543<br />Toll-Free: 1-800-SOLAR-US</p>
+              <p>+91 9750402731 , +91 9790866659 <br></br>+91 8056465693</p>
             </div>
             <div className="contact-info-card fade-in mb-4">
               <div className="contact-icon">
                 <FaEnvelope size={24} />
               </div>
               <h5>Email Us</h5>
-              <p>info@universalsolar.com<br />sales@universalsolar.com<br />support@universalsolar.com</p>
+              <p>universalsolarpower2020@gmail.com</p>
             </div>
           </div>
         </div>

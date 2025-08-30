@@ -26,17 +26,15 @@ export default function Solar() {
                 Our Story
               </h2>
               <p>
-                Founded in 2015, Universal Solar Power Solutions has been at the
-                forefront of the renewable energy revolution. We started with a
-                simple mission: to make clean, sustainable energy accessible to
-                everyone while protecting our planet for future generations.
+Universal Solar Power Solutions was established as a startup company in 2020 as
+project implementation firm works in Mechanical, Electrical, Renewable Energy
+as part of Installation and Commissioning, O&M Operation, Consultants and
+Solar asset managements. 
               </p>
               <p>
-                Over the years, we&apos;ve grown from a small team of passionate
-                engineers to a leading solar energy company, serving thousands
-                of customers across the globe. Our commitment to innovation,
-                quality, and customer satisfaction has made us a trusted name in
-                the solar industry.
+                We have successfully installed and commissioned
+nearly 1200 Residential Projects with various capacity and 30 + MW Roof Top
+Solar power plant in Industries
               </p>
             </div>
           </div>
@@ -67,10 +65,12 @@ export default function Solar() {
                 <FaBullseye size={40} />
               </div>
               <h3 style={{ color: "var(--primary-blue)" }}>Our Mission</h3>
-              <p>
-                To accelerate the world&apos;s transition to sustainable energy by
-                providing innovative, reliable, and cost-effective solar
-                solutions that empower communities and protect the environment.
+              <p className="text-start">
+               Our goal is to provide innovative, cost-efficient, and reliable solar energy
+solutions that empower both residential and commercial customer to adopt clean,
+renewable energy. By offering expert installation, high-quality products, and
+unparalleled customer support, we strive to make solar energy easy and accessible
+while fostering a more sustainable future.
               </p>
             </div>
           </div>
@@ -80,10 +80,8 @@ export default function Solar() {
                 <FaEye size={40} />
               </div>
               <h3 style={{ color: "var(--eco-green)" }}>Our Vision</h3>
-              <p>
-                To create a world powered entirely by clean, renewable energy
-                where every home and business can harness the power of the sun
-                for a sustainable future.
+              <p className="text-start">
+           Our vision is to lead in delivering sustainable and renewable energy solutions that empower communities. We transform residential and commercial buildings with efficient, innovative solar installations that significantly reduce carbon footprints, lower energy costs, and inspire a greener, brighter future, making clean, affordable energy accessible to everyone.
               </p>
             </div>
           </div>
@@ -115,17 +113,17 @@ export default function Solar() {
         <div className="row">
           {[
             {
-              name: "John Smith",
+              name: "Ganesh D",
               role: "CEO & Founder",
               desc: "15+ years in renewable energy with a passion for sustainable innovation.",
             },
             {
-              name: "Sarah Johnson",
+              name: "Sabari Raja S",
               role: "Head of Engineering",
               desc: "Expert in solar technology design and implementation with 12+ years experience.",
             },
             {
-              name: "Mike Chen",
+              name: "Sabari Raja S",
               role: "Operations Director",
               desc: "Ensures seamless project execution and customer satisfaction across all operations.",
             },

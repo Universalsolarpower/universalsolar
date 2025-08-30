@@ -16,7 +16,7 @@ export default function About() {
                     <div className="row">
                         <div className="col-sm-6">
                             <div className="counter-box">
-                                <div className="counter-number" data-count="12">7+</div>
+                                <div className="counter-number" data-count="12">5+</div>
                                 <div className="counter-text">Years Experience</div>
                             </div>
                         </div>
