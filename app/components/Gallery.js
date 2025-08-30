@@ -7,10 +7,10 @@ export default function Gallery() {
     "/project2.jpeg",
     "/project3.jpeg",
     "/project4.jpeg",
-    "/project5.jpeg",
+    "/project8.jpeg",
     "/project6.jpeg",
     "/project7.jpeg",
-    "/project8.jpeg",
+    "/project5.jpeg",
     "/project9.jpeg",
   ];
 
