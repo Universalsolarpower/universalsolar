@@ -22,7 +22,7 @@ export default function About() {
                         </div>
                         <div className="col-sm-6">
                             <div className="counter-box">
-                                <div className="counter-number" data-count="500">50+</div>
+                                <div className="counter-number" data-count="500">150+</div>
                                 <div className="counter-text">Projects Completed</div>
                             </div>
                         </div>

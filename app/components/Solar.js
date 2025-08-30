@@ -91,7 +91,7 @@ while fostering a more sustainable future.
           {[
             { number: "5000+", label: "Happy Customers" },
             { number: "15MW+", label: "Solar Installed" },
-            { number: "50+", label: "Cities Served" },
+            { number: "150+", label: "Cities Served" },
             { number: "5", label: "Years Experience" },
           ].map((stat, index) => (
             <div className="col-lg-3 col-md-6 mb-4" key={index}>
@@ -113,12 +113,12 @@ while fostering a more sustainable future.
         <div className="row">
           {[
             {
-              name: "Ganesh D",
+              name: "Sabari Raja S ",
               role: "CEO & Founder",
               desc: "15+ years in renewable energy with a passion for sustainable innovation.",
             },
             {
-              name: "Sabari Raja S",
+              name: "Ganesh D",
               role: "Head of Engineering",
               desc: "Expert in solar technology design and implementation with 12+ years experience.",
             },
