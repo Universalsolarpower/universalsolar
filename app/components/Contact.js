@@ -73,11 +73,11 @@ export default function Contact() {
               </div>
               <div className="contact-item mb-3">
                 <i className="fas fa-phone text-primary me-3"></i>
-                <span>+91 9876543210</span>
+                <span>+91 9750402731</span>
               </div>
               <div className="contact-item mb-3">
                 <i className="fas fa-envelope text-primary me-3"></i>
-                <span>info@universalsolar.com</span>
+                <span>universalsolarpower2020@gmail.com</span>
               </div>
               <div className="contact-item mb-4">
                 <i className="fas fa-clock text-primary me-3"></i>
